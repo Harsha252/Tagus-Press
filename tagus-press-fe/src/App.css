@@ -1,0 +1,165 @@
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  background: url("./img/login-bg2.jpg") no-repeat;
+  /* background-size: cover; */
+  background-position: 45% 45%;
+  background-size: 100% 100%;
+  height: 87vh;
+  width: auto;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.inventory-locations {
+  width: 100%;
+  background-color: black;
+  height: 150%;
+}
+
+.login {
+  position: relative;
+  /* background: url("./img/login-bg.jpg") no-repeat; */
+    /* url("./img/login-bg.jpg") no-repeat; */
+    /* background-color: blanchedalmond; */
+    /* background-color: rgba(20, 151, 190, 0.5); */
+    /* background-color: rgba(12, 242, 143, 0.2); */
+  background-size: contain, cover;
+  background-position: cover;
+  width: auto;
+  background-position: 45% 50%;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -20px;
+  padding-top: 150px;
+  border: 1px solid;
+}
+
+.login-form {
+  width: 40%;
+  margin: auto auto;
+  padding-top: 10px;
+}
+
+.login-btn-home,
+.login-btn {
+  /* background-color: skyblue !important; */
+  /* background-color: transparent !important; */
+  /* border-radius: 200px !important; */
+  /* border-color: #212529 !important; */
+  /* color: black !important; */
+  /* font-weight: 500 !important; */
+  cursor: pointer;
+  position: relative;
+  /* padding: 2.5rem 7.5rem; */
+  border-radius: 3.75rem !important;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 25%;
+  height: auto;
+  /* color: black !important; */
+
+  border: 1px solid rgba(12, 242, 143, 0.4) !important;
+  /* background-image: linear-gradient(-180deg, skyblue 0%, skyblue 100%); */
+  background-image: linear-gradient(
+    -180deg,
+    rgba(12, 242, 143, 0.2) 0%,
+    rgba(12, 242, 143, 0.2) 100%
+  );
+  /* box-shadow: 0 1rem 1.25rem 0 rgba(20, 151, 190, 0.5),
+    0 -0.25rem 1.5rem rgba(20, 151, 190, 0.5) inset,
+    0 0.75rem 0.5rem rgba(20, 151, 190, 0.5) inset,
+    0 0.25rem 0.5rem 0 rgba(20, 151, 190, 0.5) inset; */
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+/* Spinner centering */
+.loader {
+  margin-top: 40%;
+  margin-bottom: 39%;
+}
+
+/* .fc-widget-content {
+  background-color: rgba(128, 128, 128, 0);
+}
+
+.fc-axis {
+  background-color: white;
+}
+
+.fc-bgevent {
+  opacity: 0.4;
+} */
+
+/* .fc-today-button {
+  background-color: "#17a2b8" !important;
+  border-color: "#17a2b8" !important;
+} */
+
+.fc-today-button {
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+
+.fc-prev-button {
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+
+.fc-next-button {
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+
+.main-heading {
+  /* font-weight: 200 !important; */
+  padding-top: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.home-text {
+  font-size: 1.45rem !important;
+  font-weight: 400;
+}
+
+.sticky-top-nav {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.custom-content {
+  min-height: calc(100%-176px) !important;
+}
